@@ -317,7 +317,7 @@ section {
   background: #0eb582;
 }
 
-.subjects .box-container {
+.achievements .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
@@ -325,7 +325,7 @@ section {
   gap: 2rem;
 }
 
-.subjects .box-container .box {
+.achievements .box-container .box {
   padding: 3rem 2rem;
   text-align: center;
   border: 0.1rem solid #0eb582;
@@ -333,63 +333,63 @@ section {
   cursor: pointer;
 }
 
-.subjects .box-container .box:hover {
+.achievements .box-container .box:hover {
   background: #0eb582;
 }
 
-.subjects .box-container .box:hover h3 {
+.achievements .box-container .box:hover h3 {
   color: #fff;
 }
 
-.subjects .box-container .box:hover p {
+.achievements .box-container .box:hover p {
   color: #eee;
 }
 
-.subjects .box-container .box img {
+.achievements .box-container .box img {
   height: 10rem;
   margin-bottom: .7rem;
 }
 
-.subjects .box-container .box h3 {
+.achievements .box-container .box h3 {
   font-size: 1.7rem;
   text-transform: capitalize;
   color: #444;
   padding: .5rem 0;
 }
 
-.subjects .box-container .box p {
+.achievements .box-container .box p {
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
 }
 
-.home-courses .slide {
+.skills .slide {
   text-align: center;
   position: relative;
   background: #f0fdfa;
   overflow: hidden;
 }
 
-.home-courses .slide:hover .content {
+.skills .slide:hover .content {
   bottom: 0;
 }
 
-.home-courses .slide .image {
+.skills .slide .image {
   padding: 2rem;
 }
 
-.home-courses .slide .image img {
+.skills .slide .image img {
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
-.home-courses .slide .image h3 {
+.skills .slide .image h3 {
   font-size: 2rem;
   text-transform: capitalize;
   color: #444;
 }
 
-.home-courses .slide .content {
+.skills .slide .content {
   position: absolute;
   bottom: -100%;
   right: 0;
@@ -398,14 +398,14 @@ section {
   padding: 2rem 3rem;
 }
 
-.home-courses .slide .content h3 {
+.skills .slide .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
   color: #444;
   color: #fff;
 }
 
-.home-courses .slide .content p {
+.skills .slide .content p {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
@@ -413,7 +413,7 @@ section {
   color: #eee;
 }
 
-.home-courses .slide .content .btn:hover {
+.skills .slide .content .btn:hover {
   background: #444;
 }
 
@@ -605,7 +605,7 @@ section {
   color: #0eb582;
 }
 
-.courses .box-container {
+.projects .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
@@ -613,29 +613,29 @@ section {
   gap: 2rem;
 }
 
-.courses .box-container .box:hover .image img {
+.projects .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.courses .box-container .box.hide {
+.projects .box-container .box.hide {
   display: none;
 }
 
-.courses .box-container .box .image {
+.projects .box-container .box .image {
   height: 25rem;
   overflow: hidden;
   position: relative;
 }
 
-.courses .box-container .box .image img {
+.projects .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.courses .box-container .box .image h3 {
+.projects .box-container .box .image h3 {
   font-size: 1.5rem;
   text-transform: capitalize;
   color: #444;
@@ -646,26 +646,26 @@ section {
   background: #fff;
 }
 
-.courses .box-container .box .content {
+.projects .box-container .box .content {
   padding: 2rem;
   text-align: center;
   border: 0.1rem solid #0eb582;
 }
 
-.courses .box-container .box .content h3 {
+.projects .box-container .box .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
   color: #444;
 }
 
-.courses .box-container .box .content p {
+.projects .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.6rem;
   line-height: 2;
   color: #777;
 }
 
-.courses .box-container .box .content .icons {
+.projects .box-container .box .content .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -680,18 +680,18 @@ section {
   border-top: 0.1rem solid #0eb582;
 }
 
-.courses .box-container .box .content .icons span {
+.projects .box-container .box .content .icons span {
   font-size: 1.5rem;
   text-transform: capitalize;
   color: #444;
 }
 
-.courses .box-container .box .content .icons span i {
+.projects .box-container .box .content .icons span i {
   color: #0eb582;
   padding-right: .5rem;
 }
 
-.courses .load-more {
+.projects .load-more {
   margin-top: 2rem;
   text-align: center;
 }
