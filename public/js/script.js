@@ -44,7 +44,24 @@ var swiper = new Swiper(".home-slider", {
   grabCursor:true,
 });
 
-var swiper = new Swiper(".home-courses-slider", {
+var swiper = new Swiper(".skills-slider", {
+  loop:true,
+  grabCursor:true,
+  spaceBetween: 20,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".certifications-slider", {
   loop:true,
   grabCursor:true,
   spaceBetween: 20,
